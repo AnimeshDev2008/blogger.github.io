@@ -18,15 +18,24 @@
     justify-content: center;
   }
 
-  .content{
-    display:block;
+  .form-search {
+    display: flex;
+    justify-content: center;
   }
 
-  .content-left{
+  .form-search input {
+    margin-left: 0;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .content-left {
     width: 100%;
   }
 
-  .content-left div h1{
+  .content-left div h1 {
     font-size: 25px;
     margin-top: 10px;
   }
